@@ -45,10 +45,11 @@ CUSTOM_APPS = [
     'LLApps.master',
     'LLApps.dashboard',
     'LLApps.labour',
+    'LLApps.parties',
 ]
 
 THIRD_PARTIES_APPS = [
-
+    'rest_framework'
 ]
 
 INSTALLED_APPS += CUSTOM_APPS
@@ -152,3 +153,5 @@ EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'brijeshgondaliya.tops@gmail.com' 
 EMAIL_HOST_PASSWORD = 'nyfsrnzgbhauuhtq'
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
+
+
